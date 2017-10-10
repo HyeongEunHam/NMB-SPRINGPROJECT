@@ -1,4 +1,4 @@
-package kr.hs.emirim.nmb2017.springmvc4;
+ package kr.hs.emirim.nmb2017.springmvc4;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
