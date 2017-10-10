@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 	
 	@RequestMapping("/")
-	public String hello(@RequestParam("name")String userName,Model model) {
-		model.addAttribute("message", userName+"¥‘ æ»≥Á«œººø‰!");
+	public String hello(@RequestParam(defaultValue="¡÷¿Œ")String name,Model model) {
+		model.addAttribute("message", name+"¥‘ æ»≥Á«œººø‰!");
 		return "resultPage";
 	}
 }
